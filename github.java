@@ -7,9 +7,9 @@ class github{
         for(i = 0; i<7; i++){
             for(j = 0; j<4; j++ ){
                 if((i == 0 || i == 6) && j < 4){
-                    System.out.print("*");
+                    System.out.print("#");
                 }else if(j == 0|| j == 3 ){
-                    System.out.print("*");
+                    System.out.print("#");
                 }
                 else{
                     System.out.print(" ");
@@ -23,7 +23,7 @@ class github{
         for(i = 0;i < 7;i++){
             for(j = 0;j < 5;j++){
                                 if(i == 0 || i == 3 || i == 6 || j == 0){
-                                    System.out.print("*");
+                                    System.out.print("#");
                                 }
                                 else{
                                     System.out.print(" ");
@@ -39,7 +39,7 @@ class github{
     for( i = 0; i < 7;i++){
         for(j = 0; j < 5; j++){
                               if(i == 0 || i == 3|| i == 6 || j == 0 ){
-                                 System.out.print("*");
+                                 System.out.print("#");
                               }else{
                                   System.out.print(" ");
                                 }
@@ -55,7 +55,7 @@ int size =7;
 
            for ( j = 0; j <= size / 2; j++) {
                if (j == 0 || (i == 0 || i == size / 2) && j < size / 2 || (j == size / 2 && i <= size / 2)) {
-                   System.out.print("*");
+                   System.out.print("#");
                } else {
                    System.out.print(" ");
                }
@@ -70,10 +70,10 @@ System.out.println();
        for(i = 0; i<7; i++){
           for(j=0; j<5; j++){
                           if((i==0|| i==3) && j <=5){
-                              System.out.print("*");   
+                              System.out.print("#");   
                           } 
                           else if(j == 0 || j == 4){
-                              System.out.print("*");   
+                              System.out.print("#");   
                           } 
                           else{
                               System.out.print(" ");   
@@ -96,7 +96,7 @@ for ( i = 0; i < siz; i++) {
     for ( j = 0; j < siz; j++) {
       
         if (j == 0 || i + j == siz - 1 || i == j && i >= siz / 2)
-            System.out.print("*");
+            System.out.print("#");
         else
             System.out.print(" ");
     }
